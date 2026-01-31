@@ -1,8 +1,8 @@
 import 'dotenv/config';
 import express from 'express';
-import productRoutes from "./routes/products.js";
-import {connectDB} from "./config/db.js";
-import authRoutes from "./routes/auth.js";
+import productRoutes from "routes/products.js";
+import {connectDB} from "config/db.js";
+import authRoutes from "routes/auth.js";
 import cors from 'cors';
 import cookieParser from "cookie-parser";
 
